@@ -69,13 +69,54 @@
 
 <!-- CONTACT / SIGN UP -->
 <section>
-  <div class="container text-center">
-    <h2 class="section-title">Ready to Volunteer?</h2>
-    <div class="divider" style="margin:0.75rem auto 1.5rem;"></div>
-    <p style="max-width:500px; margin:0 auto 1.5rem; color:var(--gray);">Reach out to the committee to express your interest and find the right volunteer opportunity for you.</p>
-    <div class="gap-actions" style="justify-content:center;">
-      <a href="events.html" class="btn btn-blue">See Upcoming Events</a>
-      <a href="https://secure.actblue.com/donate/troy-dems" target="_blank" class="btn btn-primary">Donate Instead</a>
+  <div class="container">
+    <div style="max-width:640px; margin:0 auto;">
+      <h2 class="section-title">Ready to Volunteer?</h2>
+      <div class="divider"></div>
+      <p style="color:var(--gray); margin-bottom:2rem;">Reach out to the committee to express your interest and find the right volunteer opportunity for you.</p>
+
+      <div data-fs-success style="display:none; background:var(--off-white); border:1px solid var(--gray-light); border-radius:var(--radius); padding:1.25rem 1.5rem; color:var(--blue); font-weight:600; margin-bottom:1rem;">
+        Thanks for reaching out — we'll be in touch soon.
+      </div>
+      <div data-fs-error style="display:none; background:#fff0f0; border:1px solid #f5c6c6; border-radius:var(--radius); padding:1rem 1.5rem; color:var(--red); margin-bottom:1rem;"></div>
+
+      <form id="volunteer-form" style="display:flex; flex-direction:column; gap:1.25rem;">
+        <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+          <div style="flex:1; min-width:200px;">
+            <label for="first-name" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">First Name</label>
+            <input type="text" id="first-name" name="first_name" required data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; box-sizing:border-box;">
+            <span data-fs-error="first_name" style="color:var(--red); font-size:0.85rem;"></span>
+          </div>
+          <div style="flex:1; min-width:200px;">
+            <label for="last-name" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">Last Name</label>
+            <input type="text" id="last-name" name="last_name" required data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; box-sizing:border-box;">
+            <span data-fs-error="last_name" style="color:var(--red); font-size:0.85rem;"></span>
+          </div>
+        </div>
+        <div>
+          <label for="email" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">Email Address</label>
+          <input type="email" id="email" name="email" required data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; box-sizing:border-box;">
+          <span data-fs-error="email" style="color:var(--red); font-size:0.85rem;"></span>
+        </div>
+        <div>
+          <label for="phone" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">Phone Number</label>
+          <input type="tel" id="phone" name="phone" data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; box-sizing:border-box;">
+        </div>
+        <div>
+          <label for="message" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">Message</label>
+          <textarea id="message" name="message" rows="5" required data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; resize:vertical; box-sizing:border-box;"></textarea>
+          <span data-fs-error="message" style="color:var(--red); font-size:0.85rem;"></span>
+        </div>
+        <div>
+          <button type="submit" data-fs-submit-btn class="btn btn-primary">Send Message</button>
+        </div>
+      </form>
+
+      <script>
+        window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+        formspree('initForm', { formElement: '#volunteer-form', formId: 'xdajzrkn' });
+      </script>
+      <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
     </div>
   </div>
 </section>
