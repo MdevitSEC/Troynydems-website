@@ -782,10 +782,22 @@ footer ul li a:hover {
   color: var(--text);
 }
 
+.hero-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
 /* =============================================
    RESPONSIVE
    ============================================= */
 @media (max-width: 768px) {
+  .hero-title-wrap {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
   .nav-toggle { display: flex; }
 
   nav {
