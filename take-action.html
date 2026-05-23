@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Take Action | City of Troy Democratic Committee</title>
+  <meta name="description" content="Get involved with the City of Troy Democratic Committee — volunteer, donate, and make a difference.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+
+<script src="nav.js"></script>
+
+<!-- HERO -->
+<section class="hero page-hero">
+  <img class="hero-bg" src="images/hero-home.jpg" alt="Troy NY">
+  <div class="hero-content">
+    <div style="display:flex; align-items:center; gap:1.25rem; margin-bottom:1rem;">
+      <img src="images/logo.png" alt="City of Troy Democratic Committee Logo" style="width:155px; height:155px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 4px 18px rgba(0,0,0,0.6)) brightness(1.1);">
+      <h1 style="margin-bottom:0; font-size:clamp(1.5rem, 3.5vw, 2.75rem);">Take Action</h1>
+    </div>
+    <p>Make a difference in Troy — every action counts.</p>
+  </div>
+</section>
+
+<!-- SUPPORT US -->
+<section>
+  <div class="container">
+    <div style="max-width:740px; margin:0 auto; text-align:center;">
+      <h2 class="section-title">Support Us</h2>
+      <div class="divider" style="margin:0.75rem auto 1.5rem;"></div>
+      <p>The City of Troy Democratic Committee is dedicated to creating positive change in our community. By getting involved in our volunteer events, you can play a key role in shaping the future of our city.</p>
+      <p>Whether it's participating in door-to-door canvassing, assisting with candidate campaigns, attending social hours, or organizing fundraising events, your participation is crucial in advancing our shared goals.</p>
+      <div class="gap-actions" style="justify-content:center; margin-top:1.5rem;">
+        <a href="#contact-form" class="btn btn-blue">Volunteer</a>
+        <a href="https://secure.actblue.com/donate/troy-dems" target="_blank" class="btn btn-primary">Donate on ActBlue</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WAYS TO HELP -->
+<section class="section-alt">
+  <div class="container">
+    <h2 class="section-title">Ways to Get Involved</h2>
+    <div class="divider"></div>
+
+    <div class="meetings-grid">
+      <div class="meeting-item">
+        <h4>Door-to-Door Canvassing</h4>
+        <p>Connect directly with voters across Troy's neighborhoods and share our message.</p>
+      </div>
+      <div class="meeting-item">
+        <h4>Phone Banking</h4>
+        <p>Reach voters by phone to discuss the issues and encourage participation.</p>
+      </div>
+      <div class="meeting-item">
+        <h4>Host a Campaign Event</h4>
+        <p>Open your home for a neighborhood gathering with candidates and community members.</p>
+      </div>
+      <div class="meeting-item">
+        <h4>Attend Social Hours</h4>
+        <p>Meet committee members, network with peers, and organize with community leaders monthly.</p>
+      </div>
+      <div class="meeting-item">
+        <h4>Campaign Support</h4>
+        <p>Help manage a candidate's campaign — coordination, outreach, and event planning.</p>
+      </div>
+      <div class="meeting-item">
+        <h4>Donate</h4>
+        <p>Financial support helps us reach more voters and run stronger campaigns.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS LINK -->
+<section>
+  <div class="container text-center">
+    <h2 class="section-title">Volunteer Events</h2>
+    <div class="divider" style="margin:0.75rem auto 1.5rem;"></div>
+    <p style="max-width:540px; margin:0 auto 1.5rem; color:var(--gray);">Check our events page for upcoming volunteer opportunities and committee gatherings in Troy.</p>
+    <a href="events.html" class="btn btn-blue">See Upcoming Events</a>
+  </div>
+</section>
+
+<!-- CONTACT FORM -->
+<section class="section-alt">
+  <div class="container">
+    <div style="max-width:640px; margin:0 auto;">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="divider"></div>
+      <p style="color:var(--gray); margin-bottom:2rem;">Have a question or want to get involved? Send us a message and we'll get back to you.</p>
+
+      <div data-fs-success style="display:none; background:var(--off-white); border:1px solid var(--gray-light); border-radius:var(--radius); padding:1.25rem 1.5rem; color:var(--blue); font-weight:600; margin-bottom:1rem;">
+        Thanks for reaching out — we'll be in touch soon.
+      </div>
+      <div data-fs-error style="display:none; background:#fff0f0; border:1px solid #f5c6c6; border-radius:var(--radius); padding:1rem 1.5rem; color:var(--red); margin-bottom:1rem;"></div>
+
+      <form id="contact-form" style="display:flex; flex-direction:column; gap:1.25rem;">
+        <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+          <div style="flex:1; min-width:200px;">
+            <label for="first-name" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">First Name</label>
+            <input type="text" id="first-name" name="first_name" required data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; box-sizing:border-box;">
+            <span data-fs-error="first_name" style="color:var(--red); font-size:0.85rem;"></span>
+          </div>
+          <div style="flex:1; min-width:200px;">
+            <label for="last-name" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">Last Name</label>
+            <input type="text" id="last-name" name="last_name" required data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; box-sizing:border-box;">
+            <span data-fs-error="last_name" style="color:var(--red); font-size:0.85rem;"></span>
+          </div>
+        </div>
+        <div>
+          <label for="email" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">Email Address</label>
+          <input type="email" id="email" name="email" required data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; box-sizing:border-box;">
+          <span data-fs-error="email" style="color:var(--red); font-size:0.85rem;"></span>
+        </div>
+        <div>
+          <label for="phone" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">Phone Number</label>
+          <input type="tel" id="phone" name="phone" data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; box-sizing:border-box;">
+        </div>
+        <div>
+          <label for="message" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">Message</label>
+          <textarea id="message" name="message" rows="5" required data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; resize:vertical; box-sizing:border-box;"></textarea>
+          <span data-fs-error="message" style="color:var(--red); font-size:0.85rem;"></span>
+        </div>
+        <div>
+          <button type="submit" data-fs-submit-btn class="btn btn-primary">Send Message</button>
+        </div>
+      </form>
+
+      <script>
+        window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+        formspree('initForm', { formElement: '#contact-form', formId: 'xdajzrkn' });
+      </script>
+      <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,839 @@
+/* =============================================
+   CITY OF TROY DEMOCRATIC COMMITTEE
+   Main Stylesheet — edit freely
+   ============================================= */
+
+/* --- Variables --- */
+:root {
+  --blue:       #1a3a6b;
+  --blue-dark:  #0f2244;
+  --blue-light: #2a5298;
+  --red:        #c8102e;
+  --red-dark:   #a00c24;
+  --white:      #ffffff;
+  --off-white:  #f4f6f9;
+  --gray:       #6b7280;
+  --gray-light: #e5e7eb;
+  --text:       #1f2937;
+  --font:       'Segoe UI', system-ui, -apple-system, sans-serif;
+  --max-width:  1100px;
+  --radius:     6px;
+  --shadow:     0 2px 8px rgba(0,0,0,0.12);
+}
+
+/* --- Reset --- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--white);
+  line-height: 1.6;
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+
+/* --- Container --- */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* =============================================
+   HEADER & NAVIGATION
+   ============================================= */
+header {
+  background: var(--blue-dark);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  gap: 1rem;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.nav-logo img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.nav-logo-text {
+  line-height: 1.2;
+}
+
+.nav-logo-text span {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.8;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* Desktop nav */
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+nav > ul > li {
+  position: relative;
+}
+
+nav > ul > li > a,
+nav > ul > li > button {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--white);
+  padding: 0.5rem 0.85rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font);
+  letter-spacing: 0.02em;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > button:hover,
+nav > ul > li > a.active {
+  background: rgba(255,255,255,0.12);
+}
+
+/* Dropdown arrow */
+.has-dropdown > button::after {
+  content: '▾';
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+/* Dropdown menu */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding-top: 4px;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  min-width: 180px;
+  overflow: hidden;
+  z-index: 200;
+}
+
+.has-dropdown:hover .dropdown,
+.has-dropdown:focus-within .dropdown {
+  display: block;
+}
+
+.dropdown a {
+  display: block;
+  padding: 0.65rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text);
+  border-left: 3px solid transparent;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.dropdown a:hover {
+  background: var(--off-white);
+  border-left-color: var(--blue);
+}
+
+/* Donate button in nav */
+.btn-donate-nav {
+  background: var(--red) !important;
+  border-radius: var(--radius) !important;
+  font-weight: 600 !important;
+}
+
+.btn-donate-nav:hover {
+  background: var(--red-dark) !important;
+}
+
+/* Hamburger */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: all 0.25s;
+}
+
+/* =============================================
+   HERO SECTIONS
+   ============================================= */
+.hero {
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  background: var(--blue-dark);
+  overflow: hidden;
+  color: var(--white);
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 8rem 1.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.hero p {
+  font-size: 1.15rem;
+  max-width: 560px;
+  opacity: 0.92;
+  margin-bottom: 1.75rem;
+}
+
+/* Page hero (shorter, for inner pages) */
+.page-hero {
+  min-height: 220px;
+  background: linear-gradient(135deg, var(--blue-dark), var(--blue-light));
+}
+
+.page-hero .hero-content {
+  padding: 3rem 1.5rem;
+}
+
+.page-hero h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+/* =============================================
+   BUTTONS
+   ============================================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.15s;
+  font-family: var(--font);
+}
+
+.btn-primary {
+  background: var(--red);
+  color: var(--white);
+  border-color: var(--red);
+}
+
+.btn-primary:hover {
+  background: var(--red-dark);
+  border-color: var(--red-dark);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.btn-outline:hover {
+  background: var(--white);
+  color: var(--blue-dark);
+}
+
+.btn-blue {
+  background: var(--blue);
+  color: var(--white);
+  border-color: var(--blue);
+}
+
+.btn-blue:hover {
+  background: var(--blue-dark);
+  border-color: var(--blue-dark);
+}
+
+/* =============================================
+   SECTIONS
+   ============================================= */
+section {
+  padding: 4rem 0;
+}
+
+.section-alt {
+  background: var(--off-white);
+}
+
+.section-dark {
+  background: var(--blue-dark);
+  color: var(--white);
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  color: var(--blue);
+}
+
+.section-dark .section-title {
+  color: var(--white);
+}
+
+.section-subtitle {
+  color: var(--gray);
+  font-size: 1.05rem;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+
+.section-dark .section-subtitle {
+  color: rgba(255,255,255,0.75);
+}
+
+.divider {
+  width: 60px;
+  height: 4px;
+  background: var(--red);
+  border-radius: 2px;
+  margin: 0.75rem 0 1.5rem;
+}
+
+/* =============================================
+   CARDS
+   ============================================= */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-body h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: var(--blue);
+}
+
+.card-body .card-meta {
+  font-size: 0.85rem;
+  color: var(--red);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.card-body p {
+  font-size: 0.92rem;
+  color: var(--gray);
+}
+
+/* =============================================
+   CANDIDATE CARDS
+   ============================================= */
+.candidate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.candidate-card {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border-top: 4px solid var(--blue);
+}
+
+.candidate-card img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  border: 3px solid var(--gray-light);
+}
+
+.candidate-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.candidate-card .district {
+  font-size: 0.85rem;
+  color: var(--red);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.25rem;
+}
+
+.candidate-card a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--blue-light);
+  text-decoration: underline;
+}
+
+/* =============================================
+   MEETINGS / EVENTS LIST
+   ============================================= */
+.meetings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.meeting-item {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  border-left: 4px solid var(--red);
+  box-shadow: var(--shadow);
+}
+
+.meeting-item h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 0.25rem;
+}
+
+.meeting-item p {
+  font-size: 0.88rem;
+  color: var(--gray);
+}
+
+/* =============================================
+   PRIORITIES
+   ============================================= */
+.priorities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.priority-item {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border-top: 4px solid var(--blue);
+  transition: transform 0.15s;
+}
+
+.priority-item:hover {
+  transform: translateY(-4px);
+}
+
+.priority-item .icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.priority-item h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--blue);
+}
+
+/* =============================================
+   OFFICE HOLDERS TABLE
+   ============================================= */
+.office-group {
+  margin-bottom: 2.5rem;
+}
+
+.office-group h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background: var(--blue);
+  padding: 0.6rem 1rem;
+  border-radius: var(--radius) var(--radius) 0 0;
+  margin-bottom: 0;
+}
+
+.office-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: 0 0 var(--radius) var(--radius);
+  overflow: hidden;
+}
+
+.office-table tr:nth-child(even) {
+  background: var(--off-white);
+}
+
+.office-table td {
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.office-table td:first-child {
+  font-weight: 600;
+  color: var(--gray);
+  width: 40%;
+}
+
+.office-table td:last-child {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+/* =============================================
+   EMAIL SIGNUP
+   ============================================= */
+.signup-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
+
+.signup-form input[type="email"] {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.7rem 1rem;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: var(--radius);
+  background: rgba(255,255,255,0.1);
+  color: var(--white);
+  font-size: 0.95rem;
+  font-family: var(--font);
+}
+
+.signup-form input[type="email"]::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+.signup-form input[type="email"]:focus {
+  outline: none;
+  border-color: var(--white);
+  background: rgba(255,255,255,0.15);
+}
+
+/* =============================================
+   SOCIAL LINKS
+   ============================================= */
+.social-links {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 50%;
+  transition: background 0.15s;
+  font-size: 1.1rem;
+}
+
+.social-links a:hover {
+  background: var(--red);
+}
+
+/* =============================================
+   CTA BAND
+   ============================================= */
+.cta-band {
+  background: linear-gradient(135deg, var(--blue-dark), var(--blue-light));
+  color: var(--white);
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.cta-band h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.cta-band p {
+  opacity: 0.85;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* =============================================
+   FOOTER
+   ============================================= */
+footer {
+  background: var(--blue-dark);
+  color: rgba(255,255,255,0.85);
+  padding: 3rem 0 1.5rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-brand img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.footer-brand h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.footer-brand p {
+  font-size: 0.88rem;
+  opacity: 0.7;
+}
+
+footer h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--white);
+  margin-bottom: 0.75rem;
+}
+
+footer ul li {
+  margin-bottom: 0.4rem;
+}
+
+footer ul li a {
+  font-size: 0.88rem;
+  opacity: 0.75;
+  transition: opacity 0.12s;
+}
+
+footer ul li a:hover {
+  opacity: 1;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.12);
+  padding-top: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  opacity: 0.6;
+}
+
+/* =============================================
+   UTILITY
+   ============================================= */
+.text-center { text-align: center; }
+.text-red { color: var(--red); }
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.gap-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
+
+.wide-img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin: 1.5rem 0;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.two-col-text p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+/* =============================================
+   RESPONSIVE
+   ============================================= */
+@media (max-width: 768px) {
+  .nav-toggle { display: flex; }
+
+  nav {
+    display: none;
+    position: fixed;
+    inset: 72px 0 0 0;
+    background: var(--blue-dark);
+    padding: 1rem;
+    overflow-y: auto;
+    z-index: 99;
+  }
+
+  nav.open { display: block; }
+
+  nav ul {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  nav > ul > li > a,
+  nav > ul > li > button {
+    padding: 0.85rem 1rem;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .has-dropdown > button::after { margin-left: auto; }
+
+  .dropdown {
+    display: none;
+    position: static;
+    box-shadow: none;
+    background: rgba(255,255,255,0.06);
+    border-radius: 0;
+  }
+
+  .dropdown.open { display: block; }
+
+  .dropdown a {
+    color: rgba(255,255,255,0.85);
+    padding: 0.65rem 1.5rem;
+    border-left: none;
+  }
+
+  .footer-grid { grid-template-columns: 1fr; }
+  .two-col { grid-template-columns: 1fr; }
+  .candidate-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+}

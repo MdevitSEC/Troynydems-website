@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | City of Troy Democratic Committee</title>
+  <meta name="description" content="Upcoming events from the City of Troy Democratic Committee — social hours, community meetings, and more.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+
+<script src="nav.js"></script>
+
+<!-- HERO -->
+<section class="hero page-hero">
+  <img class="hero-bg" src="images/hero-home.jpg" alt="Troy NY">
+  <div class="hero-content">
+    <div style="display:flex; align-items:center; gap:1.25rem; margin-bottom:1rem;">
+      <img src="images/logo.png" alt="City of Troy Democratic Committee Logo" style="width:155px; height:155px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 4px 18px rgba(0,0,0,0.6)) brightness(1.1);">
+      <h1 style="margin-bottom:0; font-size:clamp(1.5rem, 3.5vw, 2.75rem);">Upcoming Events</h1>
+    </div>
+    <p>Join us — every gathering is a chance to connect, organize, and make a difference.</p>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section>
+  <div class="container">
+    <h2 class="section-title">Events</h2>
+    <div class="divider"></div>
+
+    <!--
+      TO ADD AN EVENT: Copy the .card block below, paste it inside .card-grid,
+      and update the image, date, title, location, and description.
+    -->
+
+    <div class="card-grid">
+
+      <div class="card">
+        <img src="images/social-hour.png" alt="Monthly Social Hour">
+        <div class="card-body">
+          <p class="card-meta">Tuesday, September 16th · 6–8 PM</p>
+          <h3>Monthly Social Hour</h3>
+          <p><strong>The Hubb Brick Oven &amp; Bar</strong><br>28 4th Street, Troy, NY</p>
+          <p style="margin-top:0.5rem;">Meet Democratic Committee Members, network with peers, recommend candidates, or find a candidate to assist. Organize with community leaders — all while learning with peers!</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/city-meetings.png" alt="September City Meetings">
+        <div class="card-body">
+          <p class="card-meta">September</p>
+          <h3>September City Meetings</h3>
+          <p>Full schedule of Troy City Council, Finance, Planning Board, and Zoning meetings for the month of September.</p>
+          <a href="https://www.troyny.gov/1400/Meetings" target="_blank" class="btn btn-blue mt-1" style="font-size:0.8rem; padding:0.5rem 1rem;">View Schedule</a>
+        </div>
+      </div>
+
+      <!--
+      TEMPLATE — copy and fill in to add a new event:
+
+      <div class="card">
+        <img src="images/YOUR-IMAGE.jpg" alt="Event name">
+        <div class="card-body">
+          <p class="card-meta">Day, Month Date · Time</p>
+          <h3>Event Name</h3>
+          <p><strong>Venue Name</strong><br>Address, Troy, NY</p>
+          <p style="margin-top:0.5rem;">Description of the event goes here.</p>
+        </div>
+      </div>
+
+      -->
+
+    </div>
+  </div>
+</section>
+
+<!-- RECURRING MEETINGS -->
+<section class="section-alt">
+  <div class="container">
+    <h2 class="section-title">Regular City Meetings</h2>
+    <div class="divider"></div>
+    <p class="section-subtitle">These City of Troy government meetings recur monthly — attend and make your voice heard.</p>
+
+    <div class="meetings-grid">
+      <div class="meeting-item">
+        <h4>City Council Meeting</h4>
+        <p>1st Thursday of the Month</p>
+      </div>
+      <div class="meeting-item">
+        <h4>Troy Finance Meeting</h4>
+        <p>3rd Thursday of the Month</p>
+      </div>
+      <div class="meeting-item">
+        <h4>Troy Planning Board</h4>
+        <p>3rd Wednesday of the Month</p>
+      </div>
+      <div class="meeting-item">
+        <h4>Zoning Board of Appeals</h4>
+        <p>1st Wednesday of the Month</p>
+      </div>
+    </div>
+
+    <div class="mt-2">
+      <a href="https://www.troyny.gov/1400/Meetings" target="_blank" class="btn btn-blue">View Full Schedule on troyny.gov</a>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
