@@ -630,12 +630,12 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 52px;
+  height: 52px;
   background: rgba(255,255,255,0.12);
   border-radius: 50%;
   transition: background 0.15s;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 .social-links a:hover {

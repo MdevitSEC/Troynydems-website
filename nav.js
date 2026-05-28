@@ -68,14 +68,16 @@
             <p style="margin:0.25rem 0 0;">Fighting for Troy's future, one election at a time.</p>
           </div>
         </div>
-        <address style="font-style:normal; margin-top:0.75rem; font-size:0.875rem; line-height:1.6; color:inherit;">
-          Troy Democratic Committee<br>
-          P.O. Box 846<br>
-          Troy, NY 12181
-        </address>
-        <div class="social-links">
-          <a href="https://www.facebook.com/troynydems" target="_blank" title="Facebook">&#xfb;</a>
-          <a href="https://www.instagram.com/troynydems/" target="_blank" title="Instagram">&#x1f4f8;</a>
+        <div style="display:flex; align-items:center; gap:1.5rem; margin-top:0.75rem;">
+          <address style="font-style:normal; font-size:0.875rem; line-height:1.6; color:inherit;">
+            Troy Democratic Committee<br>
+            P.O. Box 846<br>
+            Troy, NY 12181
+          </address>
+          <div class="social-links" style="margin-top:0;">
+            <a href="https://www.facebook.com/troynydems" target="_blank" title="Facebook">&#xfb;</a>
+            <a href="https://www.instagram.com/troynydems/" target="_blank" title="Instagram">&#x1f4f8;</a>
+          </div>
         </div>
       </div>
       <div>
