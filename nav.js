@@ -65,7 +65,7 @@
           <img src="images/logo.png" alt="Troy Dems Logo">
           <h3 style="margin:0;">City of Troy Democratic Committee</h3>
         </div>
-        <p>Fighting for Troy's future, one election at a time.<br>The official Democratic organization of the City of Troy, New York.</p>
+        <p>Fighting for Troy's future, one election at a time.</p>
         <address style="font-style:normal; margin-top:0.75rem; font-size:0.875rem; line-height:1.6; color:inherit;">
           Troy Democratic Committee<br>
           P.O. Box 846<br>
