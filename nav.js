@@ -2,6 +2,11 @@
 // To update navigation, edit this file in one place.
 
 (function () {
+  const faLink = document.createElement('link');
+  faLink.rel = 'stylesheet';
+  faLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css';
+  document.head.appendChild(faLink);
+
   const NAV_HTML = `
 <header>
   <div class="container nav-inner">
@@ -75,8 +80,8 @@
             Troy, NY 12181
           </address>
           <div class="social-links" style="margin-top:0;">
-            <a href="https://www.facebook.com/troynydems" target="_blank" title="Facebook">&#xfb;</a>
-            <a href="https://www.instagram.com/troynydems/" target="_blank" title="Instagram">&#x1f4f8;</a>
+            <a href="https://www.facebook.com/troynydems" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/troynydems/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
