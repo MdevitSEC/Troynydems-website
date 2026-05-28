@@ -63,9 +63,11 @@
       <div class="footer-brand">
         <div style="display:flex; align-items:center; gap:0.75rem;">
           <img src="images/logo.png" alt="Troy Dems Logo">
-          <h3 style="margin:0;">City of Troy Democratic Committee</h3>
+          <div>
+            <h3 style="margin:0;">City of Troy Democratic Committee</h3>
+            <p style="margin:0.25rem 0 0;">Fighting for Troy's future, one election at a time.</p>
+          </div>
         </div>
-        <p>Fighting for Troy's future, one election at a time.</p>
         <address style="font-style:normal; margin-top:0.75rem; font-size:0.875rem; line-height:1.6; color:inherit;">
           Troy Democratic Committee<br>
           P.O. Box 846<br>
