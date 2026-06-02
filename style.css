@@ -231,6 +231,10 @@ nav > ul > li > a.active {
   max-width: var(--max-width);
   margin: 0 auto;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .hero h1 {
@@ -786,6 +790,7 @@ footer ul li a:hover {
 .hero-title-wrap {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.25rem;
   margin-bottom: 1rem;
 }
