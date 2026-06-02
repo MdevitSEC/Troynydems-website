@@ -52,7 +52,7 @@
   const FOOTER_HTML = `
 <div class="cta-band">
   <div class="container">
-    <h2>Join Our Movement</h2>
+    <h2>Join Us</h2>
     <p>Get involved and help shape the future of Troy, New York.</p>
     <div class="cta-buttons">
       <a href="https://www.rensco.com/454/Voter-Registration" target="_blank" class="btn btn-outline">Get Registered</a>
