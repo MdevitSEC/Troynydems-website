@@ -785,7 +785,7 @@ footer ul li a:hover {
 
 .hero-title-wrap {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.25rem;
   margin-bottom: 1rem;
 }
