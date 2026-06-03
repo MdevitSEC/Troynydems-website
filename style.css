@@ -795,6 +795,10 @@ footer ul li a:hover {
   margin-bottom: 1rem;
 }
 
+.hero-title-wrap > div {
+  text-align: center;
+}
+
 /* =============================================
    RESPONSIVE
    ============================================= */
