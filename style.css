@@ -264,10 +264,6 @@ nav > ul > li > a.active {
   padding: 3rem 1.5rem;
 }
 
-.page-hero .hero-title-wrap {
-  flex-direction: column;
-  text-align: center;
-}
 
 .page-hero h1 {
   font-size: clamp(1.75rem, 4vw, 2.5rem);
@@ -794,13 +790,11 @@ footer ul li a:hover {
 
 .hero-title-wrap {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
   margin-bottom: 1rem;
-}
-
-.hero-title-wrap > div {
   text-align: center;
 }
 
