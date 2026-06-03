@@ -251,7 +251,8 @@ nav > ul > li > a.active {
   font-size: 1.15rem;
   max-width: 560px;
   opacity: 0.92;
-  margin-bottom: 1.75rem;
+  margin: 0 auto 1.75rem;
+  text-align: center;
 }
 
 /* Page hero (shorter, for inner pages) */
