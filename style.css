@@ -790,11 +790,17 @@ footer ul li a:hover {
 
 .hero-title-wrap {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
   margin-bottom: 1rem;
+}
+
+.hero-title-wrap > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
