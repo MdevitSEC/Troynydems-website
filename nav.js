@@ -11,7 +11,7 @@
 <header>
   <div class="container nav-inner">
     <a class="nav-logo" href="https://troynydems.com/">
-      <img src="images/logo.png" alt="Troy Dems Logo">
+      <img src="images/logo.png" alt="City of Troy Democratic Committee Logo">
       <div class="nav-logo-text">
         City of Troy
         <span>Democratic Committee</span>
@@ -67,7 +67,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <div style="display:flex; align-items:center; gap:0.75rem;">
-          <img src="images/logo.png" alt="Troy Dems Logo">
+          <img src="images/logo.png" alt="City of Troy Democratic Committee Logo">
           <div>
             <h3 style="margin:0;">City of Troy Democratic Committee</h3>
             <p style="margin:0.25rem 0 0;">Fighting for Troy's future, one election at a time.</p>
