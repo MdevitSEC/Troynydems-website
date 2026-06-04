@@ -2,6 +2,16 @@
 // To update navigation, edit this file in one place.
 
 (function () {
+  // Google Analytics 4
+  const gaScript = document.createElement('script');
+  gaScript.async = true;
+  gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-BBBY3CQ0W5';
+  document.head.appendChild(gaScript);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BBBY3CQ0W5');
+
   const faLink = document.createElement('link');
   faLink.rel = 'stylesheet';
   faLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css';
