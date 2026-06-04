@@ -50,7 +50,6 @@
           <ul class="dropdown">
             <li><a href="https://troynydems.com/take-action.html">Take Action</a></li>
             <li><a href="https://troynydems.com/vote.html">Vote</a></li>
-            <li><a href="https://troynydems.com/volunteer.html">Volunteer</a></li>
           </ul>
         </li>
         <li><a href="https://secure.actblue.com/donate/troy-dems" target="_blank" class="btn-donate-nav">Donate</a></li>
@@ -66,7 +65,7 @@
     <p>Get involved and help shape the future of Troy, New York.</p>
     <div class="cta-buttons">
       <a href="https://www.rensco.com/454/Voter-Registration" target="_blank" class="btn btn-outline">Get Registered</a>
-      <a href="volunteer.html" class="btn btn-primary">Volunteer</a>
+      <a href="take-action.html" class="btn btn-primary">Volunteer</a>
       <a href="https://secure.actblue.com/donate/troy-dems" target="_blank" class="btn btn-outline">Donate on ActBlue</a>
     </div>
   </div>
@@ -111,7 +110,6 @@
         <ul>
           <li><a href="https://troynydems.com/take-action.html">Take Action</a></li>
           <li><a href="https://troynydems.com/vote.html">Vote</a></li>
-          <li><a href="https://troynydems.com/volunteer.html">Volunteer</a></li>
           <li><a href="https://secure.actblue.com/donate/troy-dems" target="_blank">Donate</a></li>
         </ul>
       </div>
