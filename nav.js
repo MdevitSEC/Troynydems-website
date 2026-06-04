@@ -10,7 +10,7 @@
   const NAV_HTML = `
 <header>
   <div class="container nav-inner">
-    <a class="nav-logo" href="index.html">
+    <a class="nav-logo" href="https://troynydems.com/">
       <img src="images/logo.png" alt="Troy Dems Logo">
       <div class="nav-logo-text">
         City of Troy
@@ -24,23 +24,23 @@
 
     <nav id="main-nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="endorsements.html">Endorsements</a></li>
+        <li><a href="https://troynydems.com/">Home</a></li>
+        <li><a href="https://troynydems.com/endorsements.html">Endorsements</a></li>
         <li class="has-dropdown">
           <button onclick="toggleDropdown(this)">About</button>
           <ul class="dropdown">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="our-goals.html">Our Goals</a></li>
-            <li><a href="priorities.html">Priorities</a></li>
-            <li><a href="office-holders.html">Office Holders</a></li>
+            <li><a href="https://troynydems.com/about.html">About Us</a></li>
+            <li><a href="https://troynydems.com/our-goals.html">Our Goals</a></li>
+            <li><a href="https://troynydems.com/priorities.html">Priorities</a></li>
+            <li><a href="https://troynydems.com/office-holders.html">Office Holders</a></li>
           </ul>
         </li>
         <li class="has-dropdown">
           <button onclick="toggleDropdown(this)">Take Action</button>
           <ul class="dropdown">
-            <li><a href="take-action.html">Take Action</a></li>
-            <li><a href="vote.html">Vote</a></li>
-            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="https://troynydems.com/take-action.html">Take Action</a></li>
+            <li><a href="https://troynydems.com/vote.html">Vote</a></li>
+            <li><a href="https://troynydems.com/volunteer.html">Volunteer</a></li>
           </ul>
         </li>
         <li><a href="https://secure.actblue.com/donate/troy-dems" target="_blank" class="btn-donate-nav">Donate</a></li>
@@ -88,20 +88,20 @@
       <div>
         <h4>Pages</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="endorsements.html">Endorsements</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="our-goals.html">Our Goals</a></li>
-          <li><a href="priorities.html">Priorities</a></li>
-          <li><a href="office-holders.html">Office Holders</a></li>
+          <li><a href="https://troynydems.com/">Home</a></li>
+          <li><a href="https://troynydems.com/endorsements.html">Endorsements</a></li>
+          <li><a href="https://troynydems.com/about.html">About Us</a></li>
+          <li><a href="https://troynydems.com/our-goals.html">Our Goals</a></li>
+          <li><a href="https://troynydems.com/priorities.html">Priorities</a></li>
+          <li><a href="https://troynydems.com/office-holders.html">Office Holders</a></li>
         </ul>
       </div>
       <div>
         <h4>Get Involved</h4>
         <ul>
-          <li><a href="take-action.html">Take Action</a></li>
-          <li><a href="vote.html">Vote</a></li>
-          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="https://troynydems.com/take-action.html">Take Action</a></li>
+          <li><a href="https://troynydems.com/vote.html">Vote</a></li>
+          <li><a href="https://troynydems.com/volunteer.html">Volunteer</a></li>
           <li><a href="https://secure.actblue.com/donate/troy-dems" target="_blank">Donate</a></li>
         </ul>
       </div>
