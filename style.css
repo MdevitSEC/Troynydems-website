@@ -488,7 +488,7 @@ section {
 .meeting-item {
   background: var(--white);
   border-radius: var(--radius);
-  padding: 1.25rem;
+  padding: 1.25rem 0.75rem;
   border-left: 4px solid var(--red);
   box-shadow: var(--shadow);
 }
