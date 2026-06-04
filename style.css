@@ -355,7 +355,6 @@ section {
   color: var(--gray);
   font-size: 1.05rem;
   margin-bottom: 2.5rem;
-  max-width: 600px;
 }
 
 .section-dark .section-subtitle {
