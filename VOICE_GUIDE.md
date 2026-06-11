@@ -244,4 +244,27 @@ Every image needs alt text. Alt text describes what the image shows — it is no
 
 ---
 
-*Last updated: May 2026*
+---
+
+### Legislative Sessions (Meeting Summaries)
+
+Meeting summaries are written from a Democratic perspective — the council majority's work should be framed favorably and the administration's failures should be named — but they must still pass the trusted-neighbor test. A neighbor shares what happened and what it means. A neighbor does not write attack ads.
+
+**Democratic lean means:**
+- Lead with what the council accomplished, passed, or protected
+- Name administration failures specifically and factually: "the administration did not provide the contract until three days before the vote" rather than "the administration stonewalled the council"
+- Let the record carry the weight — a 7-0 veto override speaks for itself
+- State consequences for residents: "Troy became the 20th New York municipality to adopt Good Cause Eviction"
+
+**What to avoid:**
+- Loaded adjectives that aren't supported by a specific fact: "secretive," "legally dubious," "routinely stonewalled"
+- Hyperbolic framing: "a testament to years of Democratic fiscal stewardship"
+- Dismissive asides: "Mayor Mantello showed up to oppose it"
+- More than one em dash per paragraph (voice guide: maximum one em dash per response)
+- Qualifiers stacked on qualifiers
+
+**The test:** Would a Troy resident who leans Democratic but expects straight information trust this summary? If it reads like a press release from an opposition campaign, rewrite it.
+
+---
+
+*Last updated: June 2026*
