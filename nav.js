@@ -46,6 +46,13 @@
           </ul>
         </li>
         <li class="has-dropdown">
+          <button onclick="toggleDropdown(this)">City Council</button>
+          <ul class="dropdown">
+            <li><a href="https://troynydems.com/council-meetings.html">Legislative Sessions</a></li>
+            <li><a href="https://troynydems.com/CCNews.html">Council Newsletters</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
           <button onclick="toggleDropdown(this)">Take Action</button>
           <ul class="dropdown">
             <li><a href="https://troynydems.com/take-action.html">Take Action</a></li>
@@ -103,6 +110,8 @@
           <li><a href="https://troynydems.com/our-goals.html">Our Goals</a></li>
           <li><a href="https://troynydems.com/priorities.html">Priorities</a></li>
           <li><a href="https://troynydems.com/office-holders.html">Office Holders</a></li>
+          <li><a href="https://troynydems.com/council-meetings.html">Legislative Sessions</a></li>
+          <li><a href="https://troynydems.com/CCNews.html">Council Newsletters</a></li>
         </ul>
       </div>
       <div>

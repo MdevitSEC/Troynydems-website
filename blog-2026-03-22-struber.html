@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I Can See You...Flock Deep Dive | Shikole Struber | Troy Democrats</title>
+  <meta name="description" content="When Flock hit the agenda last week, I sped up my deep dive. As a Chief Information Security Officer (CISO) in my day job and virtual CISO for clients in a variety of industries, I perform the vendor reviews for any new application or hardware brought into the environment.">
+  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="canonical" href="https://troynydems.com/blog-2026-03-22-struber.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="City of Troy Democratic Committee">
+  <meta property="og:url" content="https://troynydems.com/blog-2026-03-22-struber.html">
+  <meta property="og:title" content="I Can See You...Flock Deep Dive | Shikole Struber">
+  <meta property="og:description" content="When Flock hit the agenda last week, I sped up my deep dive. As a Chief Information Security Officer (CISO) in my day job and virtual CISO for clients in a variety of industries, I perform the vendor reviews for any new application or hardware brought into the environment.">
+  <meta property="og:image" content="https://troynydems.com/images/hero-home.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="I Can See You...Flock Deep Dive | Shikole Struber">
+  <meta name="twitter:description" content="When Flock hit the agenda last week, I sped up my deep dive. As a Chief Information Security Officer (CISO) in my day job and virtual CISO for clients in a variety of industries, I perform the vendor reviews for any new application or hardware brought into the environment.">
+  <meta name="twitter:image" content="https://troynydems.com/images/hero-home.jpg">
+  <style>
+    .blog-post-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--gray-light);
+    }
+    .blog-post-header img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .blog-post-author-name {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--blue);
+    }
+    .blog-post-author-title {
+      font-size: 0.9rem;
+      color: var(--gray);
+    }
+    .blog-post-date {
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--red);
+      margin-top: 0.2rem;
+    }
+    .blog-post-body {
+      font-size: 1.05rem;
+      line-height: 1.85;
+      color: var(--text);
+      max-width: 780px;
+    }
+    .blog-post-body h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--blue);
+      margin: 2.5rem 0 0.75rem;
+    }
+    .blog-post-body h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--blue);
+      margin: 2rem 0 0.5rem;
+    }
+    .blog-post-body h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 1.5rem 0 0.4rem;
+    }
+    .blog-post-body p {
+      margin-bottom: 1.25rem;
+    }
+    .blog-post-body ul {
+      list-style: disc;
+      padding-left: 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+    .blog-post-body ul li {
+      margin-bottom: 0.4rem;
+    }
+    .blog-post-section {
+      margin-bottom: 3rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--gray-light);
+    }
+    .blog-post-section:last-child {
+      border-bottom: none;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--blue-light);
+      text-decoration: underline;
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<script src="nav.js?v=5"></script>
+
+<!-- HERO -->
+<section class="hero page-hero">
+  <img class="hero-bg" src="images/hero-home.jpg" alt="Monument Square in Troy, New York">
+  <div class="hero-content">
+    <div class="hero-title-wrap">
+      <img src="images/logo.png" alt="City of Troy Democratic Committee Logo" style="width:200px; height:200px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 4px 18px rgba(0,0,0,0.6)) brightness(1.1);">
+      <div>
+        <h1 style="font-size:clamp(1.3rem, 3vw, 2.1rem); margin-bottom:0.5rem;">I Can See You...Flock Deep Dive</h1>
+        <p style="opacity:0.9;">District 2 Newsletter &mdash; March 2026</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POST CONTENT -->
+<section>
+  <div class="container">
+
+    <a href="CCNews.html" class="back-link">&larr; Back to City Council Newsletters</a>
+
+    <!-- Author -->
+    <div class="blog-post-header">
+      <img src="images/candidate-struber.jpeg" alt="Shikole Struber">
+      <div>
+        <div class="blog-post-author-name">Shikole Struber</div>
+        <div class="blog-post-author-title">Council Member, District 2</div>
+        <div class="blog-post-date">March 2026</div>
+      </div>
+    </div>
+
+    <div class="blog-post-body">
+      <div class="blog-post-section">
+        <p>When Flock hit the agenda last week, I sped up my deep dive. As a Chief Information Security Officer (CISO) in my day job and virtual CISO for clients in a variety of industries, I perform the vendor reviews for any new application or hardware brought into the environment. I also oversee the implementation plans to ensure that how the technology is used is as secure as possible and meets the information security policies of the entity. I have also lead cyber audits for these entities when the SEC or FBI comes knocking.</p>
+
+        <p>Which brings me to the line of questioning I started at the March 19th Council meeting. I had provided many of my questions to the administration ahead of time knowing that they would need some time to gather answers. To their credit, they did send many of the questions to Flock before the meeting and some answers were provided, though not with answers that would pass any kind of third-party review.</p>
+
+        <p>I did not go into this meeting with a pre-determined opinion, I was hoping that both Flock and the Administration would take the opportunity to outline processes and safeguards they had in place and maybe alleviate some of the resident concerns that were front and center. Unfortunately, that is not what happened.</p>
+
+        <p><strong>1. How is Troy's Flock instance configured for user logins? If not using SSO, is 2FA required?</strong> Flock Safety utilizes mandatory two-factor authentication by default for the Troy Police Department. This configuration requires every user to verify their login with a unique, one-time passcode sent to a registered trusted device.</p>
+
+        <p>2FA is a baseline in cyber defense, so at least they claim to have that. As residents pointed out, though, 2FA can still be done badly. I would have expected that a system that has access to such private data would be integrated into a single sign on solution. It does support it. This is not a point against Flock, it's a point against Troy for keeping this security control at the out-of-the-box level.</p>
+
+        <p><strong>2. Is Troy's Flock system locked down at all so that users can only access the data from a trusted network or IP?</strong> Access to the Flock Safety dashboard is strictly regulated to maintain CJIS compliance, yet it remains accessible beyond a single physical network. This flexibility ensures that both uniformed officers using Mobile Data Terminals (MDTs) and non-uniformed personnel utilizing the Flock Safety mobile app can receive real-time 'Hot List' alerts and investigative data directly from the field.</p>
+
+        <p>Flexibility is a ruse. Standard security implementation of a system that has access to confidential or private data should be locked down so that a user can only access it from a trusted, secure network. You can still access the system from other locations by connecting to a VPN. The fact that Flock doesn't seem to understand how that very basic technical set up works is concerning.</p>
+
+        <p><strong>3. Is Flock monitored by a SIEM tool?</strong> Yes. Flock's production environment is monitored by a centralized SIEM (SumoLogic) operated by the Flock InfoSec team, alongside EDR and vulnerability management tooling.</p>
+
+        <p>SIEM (Security Incident and Event Management) tools aggregate logs from several sources within an environment and correlate events to detect a breach. While I am happy Flock has an internal SIEM tool, this response does not actually address the question of Troy's Flock instance. I asked the Flock representative at the meeting if this SIEM monitored each individual instance of Flock and they didn't have an answer. This is not entirely Flock's issue; Troy should have its own SIEM tool that the logs feed in to. The fact that this question was sent to Flock instead of being answered by the administration is concerning. It sounds like there is nothing in place to alert us of a breach. It also points to a higher likelihood that parties outside the Troy PD have access to the data.</p>
+
+        <p><strong>4. What firmware version are the Troy LPRs running right now?</strong> All Troy LPRs are on Flock's current Picard LPR release train (Trapperkeeper OS 3.x + Apps 8.x, with bundled MCU firmware like the latest power&ndash;module FW). We can pull an exact per&ndash;camera report (OS, apps, and sub&ndash;firmware versions) from Flock's device management tools if requested for the record.</p>
+
+        <p>Many of the videos online of a camera getting hacked are running a specific, vulnerable, version of firmware or operating system. The vulnerabilities that NIST found on the Falcon cameras that Troy has are specifically on firmware version 2.2 and earlier, which is why I asked this question. The response Flock provided is vague, especially when they could have just checked the version or pulled the logs like they stated was possible.</p>
+
+        <p><strong>5. Who is responsible for performing firmware updates on the LPR Devices?</strong> Flock is. Updates are delivered over the air by Flock engineering/SRE; the OS and services handle updating the camera, power&ndash;module MCU, deterrence controller, etc. Troy PD does not have to perform any manual firmware work.</p>
+
+        <p>Troy does not own the cameras that are in use, they are rented from Flock. This does not always mean that the updates are done by the company, there are times when a subscriber does updates on their own.</p>
+
+        <p><strong>6. How often are updates done on the equipment? How is it documented and logged?</strong> Flock ships multiple OS/app releases per year and roll them out in staged cohorts, plus targeted firmware updates when needed. Each release is fully documented (version, date, release notes, Jira links), adoption is tracked on fleet&ndash;health dashboards, and update activity is logged both on&ndash;device and in Flock's backend monitoring; security&ndash;relevant events flow into Flock's SIEM.</p>
+
+        <p>I had a follow up question at the meeting Thursday, based on this response, about how long it takes Flock to update cameras after a vulnerability is discovered. The rep did not have an answer.</p>
+
+        <p>I also requested a copy of the SOC 2 type 2 report which is standard of any technology platform. This report is the findings of a third-party auditor after reviewing evidence over time of policies and procedures surrounding technology and cyber security. I tried to get a copy on my own, but Flock requires the email of the sales rep you are working with to even request the document. This is highly unusual. Typically, anyone can request the report but will be required to sign an NDA. As of this posting, I still have not seen the report.</p>
+
+        <p>None of this touches on the contractual issues, the data sharing, or the responsible use of the technology. This is simply highlighting the technical side of the Flock cameras and the deficiencies in the controls around them. It equally concerns me that the Troy IT department does not seem to have any involvement with the system and the administration as a whole seems to be flippant about data security in general.</p>
+
+        <p>Thank you to all the residents who reached out, via email and in person, to voice their thoughts, opinions, and concerns. There are clearly still unanswered questions that I will continue to work on getting answers.</p>
+
+        <p>I support the Troy PD having tools to do their job, including Automatic License Plate Readers. But not all ALPRs are made equal. It's ok to switch services if the current one is found to have issues, and Flock has got some issues. Let's get them some tools that also have privacy and security standards.</p>
+      </div>
+    </div>
+
+    <a href="CCNews.html" class="back-link">&larr; Back to City Council Newsletters</a>
+
+  </div>
+</section>
+
+</body>
+</html>
