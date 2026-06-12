@@ -40,8 +40,7 @@
           <button onclick="toggleDropdown(this)">About</button>
           <ul class="dropdown">
             <li><a href="https://troynydems.com/about.html">About Us</a></li>
-            <li><a href="https://troynydems.com/our-goals.html">Our Goals</a></li>
-            <li><a href="https://troynydems.com/priorities.html">Priorities</a></li>
+            <li><a href="https://troynydems.com/priorities.html">Goals &amp; Priorities</a></li>
             <li><a href="https://troynydems.com/office-holders.html">Office Holders</a></li>
           </ul>
         </li>
@@ -107,8 +106,7 @@
           <li><a href="https://troynydems.com/">Home</a></li>
           <li><a href="https://troynydems.com/endorsements.html">Endorsements</a></li>
           <li><a href="https://troynydems.com/about.html">About Us</a></li>
-          <li><a href="https://troynydems.com/our-goals.html">Our Goals</a></li>
-          <li><a href="https://troynydems.com/priorities.html">Priorities</a></li>
+          <li><a href="https://troynydems.com/priorities.html">Goals &amp; Priorities</a></li>
           <li><a href="https://troynydems.com/office-holders.html">Office Holders</a></li>
           <li><a href="https://troynydems.com/council-meetings.html">Legislative Sessions</a></li>
           <li><a href="https://troynydems.com/CCNews.html">Council Newsletters</a></li>
