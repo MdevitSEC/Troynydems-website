@@ -44,8 +44,8 @@
       <div class="two-col-text">
         <h2 class="section-title">Make Your Mark on Troy</h2>
         <div class="divider"></div>
-        <p>Troy Democrats hold the majority on the City Council, and we are committed to building a strong bench of candidates who reflect our community and share our values. Running for office as a Democrat in Troy means joining a coalition that is actively working to deliver results for residents — on housing, public safety, infrastructure, and accountable government.</p>
-        <p>We are always looking for thoughtful, community-minded people who are ready to step up. Whether you have considered running for a long time or the idea is just taking shape, we encourage you to reach out. Every strong Democratic candidate makes Troy stronger.</p>
+        <p>Troy's Democratic Council majority has delivered for residents — passing Good Cause Eviction protections to shield tenants from arbitrary rent hikes and no-fault evictions, and holding the Mantello administration accountable on contracts and city spending. With a Republican mayor in City Hall, every seat on the Council matters.</p>
+        <p>We are looking for people who are rooted in Troy, committed to its residents, and ready to carry that work forward. Whether you have considered running before or the idea is just taking shape, reach out — we will walk you through what the path looks like and how we can support you.</p>
       </div>
       <div>
         <img loading="lazy" src="images/team.jpg" alt="Troy Democrats" class="wide-img">
@@ -128,14 +128,21 @@
         </div>
 
         <div>
-          <label for="office" style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.4rem; color:var(--blue);">Office of Interest</label>
-          <select id="office" name="office" required data-fs-field style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--gray-light); border-radius:var(--radius); font-size:1rem; font-family:inherit; background:white; box-sizing:border-box;">
-            <option value="" disabled selected>Select an office</option>
-            <option value="Mayor">Mayor</option>
-            <option value="City Council President">City Council President</option>
-            <option value="City Council Member">City Council Member</option>
-          </select>
-          <span data-fs-error="office" style="color:var(--red); font-size:0.85rem;"></span>
+          <label style="display:block; font-weight:600; font-size:0.9rem; margin-bottom:0.6rem; color:var(--blue);">Office of Interest <span style="font-weight:400; color:var(--gray);">(select all that apply)</span></label>
+          <div style="display:flex; flex-direction:column; gap:0.5rem;">
+            <label style="display:flex; align-items:center; gap:0.65rem; font-size:1rem; cursor:pointer;">
+              <input type="checkbox" name="office" value="Mayor" style="width:1rem; height:1rem; accent-color:var(--blue);">
+              Mayor
+            </label>
+            <label style="display:flex; align-items:center; gap:0.65rem; font-size:1rem; cursor:pointer;">
+              <input type="checkbox" name="office" value="City Council President" style="width:1rem; height:1rem; accent-color:var(--blue);">
+              City Council President
+            </label>
+            <label style="display:flex; align-items:center; gap:0.65rem; font-size:1rem; cursor:pointer;">
+              <input type="checkbox" name="office" value="City Council Member" style="width:1rem; height:1rem; accent-color:var(--blue);">
+              City Council Member
+            </label>
+          </div>
         </div>
 
         <div>
