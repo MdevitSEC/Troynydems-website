@@ -56,6 +56,7 @@
           <ul class="dropdown">
             <li><a href="https://troynydems.com/take-action.html">Take Action</a></li>
             <li><a href="https://troynydems.com/vote.html">Vote</a></li>
+            <li><a href="https://troynydems.com/run-for-office.html">Run for Office</a></li>
           </ul>
         </li>
         <li><a href="https://secure.actblue.com/donate/troy-dems" target="_blank" class="btn-donate-nav">Donate</a></li>
@@ -117,6 +118,7 @@
         <ul>
           <li><a href="https://troynydems.com/take-action.html">Take Action</a></li>
           <li><a href="https://troynydems.com/vote.html">Vote</a></li>
+          <li><a href="https://troynydems.com/run-for-office.html">Run for Office</a></li>
           <li><a href="https://secure.actblue.com/donate/troy-dems" target="_blank">Donate</a></li>
         </ul>
       </div>
