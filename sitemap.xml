@@ -6,55 +6,61 @@
     <loc>https://troynydems.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-20</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-20</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/endorsements.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-20</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/events.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-20</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/news.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-20</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/office-holders.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-20</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/priorities.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-20</lastmod>
+  </url>
+  <url>
+    <loc>https://troynydems.com/run-for-office.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-07-20</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/take-action.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-20</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/vote.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-20</lastmod>
   </url>
 
   <!-- City Council -->
@@ -72,6 +78,30 @@
   </url>
 
   <!-- Meeting pages -->
+  <url>
+    <loc>https://troynydems.com/meeting-2026-07-09.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-07-09</lastmod>
+  </url>
+  <url>
+    <loc>https://troynydems.com/meeting-2026-06-29.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-29</lastmod>
+  </url>
+  <url>
+    <loc>https://troynydems.com/meeting-2026-06-25.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://troynydems.com/meeting-2026-06-18.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-18</lastmod>
+  </url>
   <url>
     <loc>https://troynydems.com/meeting-2026-06-04.html</loc>
     <changefreq>monthly</changefreq>
@@ -152,6 +182,12 @@
   </url>
 
   <!-- Newsletter posts -->
+  <url>
+    <loc>https://troynydems.com/blog-2026-06-mckee.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-30</lastmod>
+  </url>
   <url>
     <loc>https://troynydems.com/blog-2026-06-11-steele.html</loc>
     <changefreq>monthly</changefreq>
