@@ -68,7 +68,7 @@
     <loc>https://troynydems.com/council-meetings.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-08-10</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/CCNews.html</loc>
@@ -79,10 +79,22 @@
 
   <!-- Meeting pages -->
   <url>
+    <loc>https://troynydems.com/meeting-2026-08-06.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://troynydems.com/meeting-2026-07-23.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-07-23</lastmod>
+  </url>
+  <url>
     <loc>https://troynydems.com/meeting-2026-07-09.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-08-10</lastmod>
   </url>
   <url>
     <loc>https://troynydems.com/meeting-2026-06-29.html</loc>
