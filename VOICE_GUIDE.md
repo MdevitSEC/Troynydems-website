@@ -260,11 +260,40 @@ Meeting summaries are written from a Democratic perspective — the council majo
 - Loaded adjectives that aren't supported by a specific fact: "secretive," "legally dubious," "routinely stonewalled"
 - Hyperbolic framing: "a testament to years of Democratic fiscal stewardship"
 - Dismissive asides: "Mayor Mantello showed up to oppose it"
-- More than one em dash per paragraph (voice guide: maximum one em dash per response)
+- Em dashes of any kind. Use commas, periods, or parentheses instead
 - Qualifiers stacked on qualifiers
 
 **The test:** Would a Troy resident who leans Democratic but expects straight information trust this summary? If it reads like a press release from an opposition campaign, rewrite it.
 
+**Names and pronouns:**
+- Full name and title on first mention ("Council Member Kathleen Spain-McLaren"), last name only after. This includes members who are only named in the roll call or as absent
+- Use "Mayor Mantello" for the person and "the Mantello administration" for her office and staff
+- Spell residents' names the way they're confirmed, not the way auto-captions hear them. If a name can't be confirmed, use the first name only and flag it before publishing
+- Don't guess anyone's pronouns. Use a resident's name, or "they," unless their pronouns are known. Frankie uses they/them
+- Leave quotes exactly as spoken, including pronouns inside them
+
+**Plain language:**
+- Spell out every acronym on first use: "Federal Emergency Management Agency (FEMA)," "Freedom of Information Law (FOIL)," "Troy Police Benevolent Association"
+- Explain procedure the first time it comes up, in one short clause: unanimous consent, abstention, veto override, public hearing, final adoption
+- Get the stage of a bill right. A committee vote *advances* a bill; the Regular Meeting vote is *final adoption*. Don't say a law "passed" until the full council adopts it, and link back from the final-adoption page to the earlier step
+- Show votes as yes-no (6-0), or yes-no-abstain (4-0-2) when anyone abstains, and say who was absent
+
+**Attribution:**
+- A claim made by one person in the meeting gets attributed to them, even when it's a criticism we agree with: "the items reached council members only hours before the vote, Struber said," not "the administration sent the items hours before the vote"
+- Same rule for meta descriptions and archive cards. A shorter summary doesn't get to drop the attribution
+- Resident claims in public forum are always attributed to the resident. Don't restate them as fact
+- If the transcript doesn't say who spoke, write "a council member" or "an administration official" rather than guessing
+
+**Page structure:**
+- The synopsis is two short paragraphs: what the council did, then the accountability angle and any big forum moment. Ceremonial items and secondary business get their own sections lower down
+- Sections can run in order of news value instead of meeting order. A briefing with no votes can go below the votes that made news
+- Don't open paragraphs with a bold label ("**Riverwalk Trail.** Extending the path..."). Write a plain topic sentence instead ("The Riverwalk Trail still has a funding gap.")
+- Bold is for speaker names in public forum sections and for the one outcome a reader must not miss ("Local Law 4 is now law.")
+- Link the clerk's minutes, agendas, and YouTube recording at the top of every page so readers can check our work
+- Vote tables use the clerk's full titles, word for word
+
+**Exceptions for meeting pages:** Meeting summaries are reporting, so the general "Page Body Text" rules bend here. Write in third person rather than "we" and "you." Paragraphs can run one to five sentences. The source-link row at the top can hold more than two buttons.
+
 ---
 
-*Last updated: June 2026*
+*Last updated: October 2026*
