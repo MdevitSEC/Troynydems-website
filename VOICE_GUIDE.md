@@ -284,6 +284,14 @@ Meeting summaries are written from a Democratic perspective — the council majo
 - Resident claims in public forum are always attributed to the resident. Don't restate them as fact
 - If the transcript doesn't say who spoke, write "a council member" or "an administration official" rather than guessing
 
+**Fact-checking the administration:**
+- Every factual claim from Mayor Mantello or her staff (deputy mayor, comptroller, corporation counsel, department heads, and city staff speaking for the administration) gets checked before the page goes up
+- When a public record confirms, contradicts, or adds context to the claim, say so in the next sentence and link the source so readers can verify it: the city's own press releases, budget documents, clerk's minutes, state or federal award announcements, audits, or news coverage. Example: the mayor claimed "tenfold" lead pipe investment; the next paragraph links the city's announcements showing the money is federal and state grants and loans
+- Say only what the source says. Don't credit or blame a specific official unless a source names them
+- A claim you can't verify gets cut, or stays clearly attributed and is flagged to the reviewer before publishing
+- Cut talking points that carry no checkable fact ("we watch every penny," "services won't suffer"). They don't inform readers
+- Don't give the mayor more space than the council's questions. Summarize her position in a sentence when that's all readers need ("Mayor Mantello supports the program")
+
 **Page structure:**
 - The synopsis is two short paragraphs: what the council did, then the accountability angle and any big forum moment. Ceremonial items and secondary business get their own sections lower down
 - Sections can run in order of news value instead of meeting order. A briefing with no votes can go below the votes that made news
