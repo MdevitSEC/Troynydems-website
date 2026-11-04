@@ -24,6 +24,9 @@
 /* --- Reset --- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
+
+/* --- Paragraph spacing: stacked paragraphs in page body text --- */
+.container > p + p { margin-top: 1rem; }
 body {
   font-family: var(--font);
   color: var(--text);
