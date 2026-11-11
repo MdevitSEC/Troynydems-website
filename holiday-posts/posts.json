@@ -1,0 +1,19 @@
+[
+  {"id": "2026-11-11-veterans-day", "kicker": "Veterans Day \u00b7 Nov. 11", "headline": "Thank You, Veterans", "sub": "Troy honors all who served.", "flag": true},
+  {"id": "2026-11-26-thanksgiving", "kicker": "Thanksgiving \u00b7 Nov. 26", "headline": "Happy Thanksgiving", "sub": "Grateful for our Troy neighbors.", "size": 120},
+  {"id": "2026-11-28-small-business-saturday", "kicker": "Small Business Saturday", "headline": "Shop Local, Troy", "sub": "Support the shops that make our city home."},
+  {"id": "2026-12-24-happy-holidays", "kicker": "Season's Greetings", "headline": "Happy Holidays", "sub": "Peace and joy to every Troy family."},
+  {"id": "2027-01-01-new-year", "kicker": "Jan. 1, 2027", "headline": "Happy New Year", "sub": "Here's to a great year for Troy."},
+  {"id": "2027-01-18-mlk-day", "kicker": "MLK Day \u00b7 Jan. 18", "headline": "Honoring Dr. King", "sub": "His work for justice goes on."},
+  {"id": "2027-02-01-black-history-month", "kicker": "February", "headline": "Black History Month", "sub": "Celebrating Black history and our Black neighbors.", "size": 120},
+  {"id": "2027-03-01-womens-history-month", "kicker": "March", "headline": "Women's History Month", "sub": "Honoring the women who shape our city.", "size": 100},
+  {"id": "2027-05-31-memorial-day", "kicker": "Memorial Day \u00b7 May 31", "headline": "We Remember", "sub": "Honoring those who gave their lives in service.", "flag": true},
+  {"id": "2027-06-01-pride-month", "kicker": "June", "headline": "Happy Pride", "sub": "Troy is a city for everyone."},
+  {"id": "2027-06-14-flag-day", "kicker": "Flag Day \u00b7 June 14", "headline": "Happy Flag Day", "sub": "Remembering Troy's Flag Day parade.", "flag": true},
+  {"id": "2027-06-19-juneteenth", "kicker": "Juneteenth \u00b7 June 19", "headline": "Celebrating Freedom", "sub": "Marking the end of slavery in the United States.", "size": 120},
+  {"id": "2027-07-04-independence-day", "kicker": "July 4", "headline": "Happy Fourth of July", "sub": "Celebrate safely, Troy!", "size": 100, "flag": true},
+  {"id": "2027-09-06-labor-day", "kicker": "Labor Day \u00b7 Sept. 6", "headline": "Thank You, Workers", "sub": "Working people built Troy."},
+  {"id": "2027-09-13-uncle-sam-day", "kicker": "Uncle Sam Day", "headline": "Happy Birthday, Uncle Sam", "sub": "Troy's own Sam Wilson was born Sept. 13, 1766.", "size": 100, "flag": true},
+  {"id": "2027-09-15-hispanic-heritage-month", "kicker": "Sept. 15 to Oct. 15", "headline": "Hispanic Heritage Month", "sub": "Celebrating our Hispanic and Latino neighbors.", "size": 100},
+  {"id": "2027-11-02-election-day", "kicker": "Election Day \u00b7 Nov. 2", "headline": "Vote Today, Troy", "sub": "Polls are open 6 a.m. to 9 p.m."}
+]
