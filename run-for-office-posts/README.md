@@ -14,9 +14,24 @@ Facebook posts inviting Troy residents to fill out the interest form at troynyde
 
 **Hashtags:** #TroyNY #RunForOffice #TroyDems #CapitalRegion
 
+## Schedule
+
+Starts the day after the council's Dec. 1 budget vote.
+
+| Date | Where | Post |
+|---|---|---|
+| Wed., Dec. 2 | Facebook | Post 1: The ask |
+| Thu., Dec. 3 | Reddit | Reddit post |
+| Mon., Dec. 7 | Facebook | Post 3: What the jobs are |
+| Mon., Dec. 14 | Facebook | Post 2: Low pressure (one week left) |
+| Wed., Dec. 16 | Reddit | Reminder comment on the Reddit post, if the subreddit allows it |
+| Thu., Dec. 17 | Facebook | Post 4: The personal invitation (three days left) |
+
 ---
 
 ### Post 1: The ask
+
+Post date: Wed., Dec. 2
 
 Graphic: `graphics/1-the-ask.png`
 
@@ -36,6 +51,8 @@ Alt text: *Graphic reading "Interest form due Dec. 20. Could It Be You? Troy Dem
 
 ### Post 2: Low pressure
 
+Post date: Mon., Dec. 14
+
 Graphic: `graphics/2-low-pressure.png`
 
 Alt text: *Graphic reading "Thinking about running? Start With a Conversation. Mayor, Council President or City Council. No commitment. Fill out the form by Dec. 20: troynydems.com/run-for-office." Troy Democratic Committee logo.*
@@ -50,7 +67,7 @@ Alt text: *Graphic reading "Thinking about running? Start With a Conversation. M
 > 🏛️ City Council President
 > 🏛️ City Council Member
 >
-> The form is open through Sunday, Dec. 20.
+> One week left: the form closes Sunday, Dec. 20.
 >
 > 👉 Fill out the form: https://troynydems.com/run-for-office#candidate-form
 >
@@ -59,6 +76,8 @@ Alt text: *Graphic reading "Thinking about running? Start With a Conversation. M
 > #TroyNY #RunForOffice #TroyDems #CapitalRegion
 
 ### Post 3: What the jobs are
+
+Post date: Mon., Dec. 7
 
 Graphic: `graphics/3-the-jobs.png`
 
@@ -82,6 +101,8 @@ Alt text: *Graphic reading "Three ways to serve Troy. Help Lead Troy. Mayor, Cou
 
 ### Post 4: The personal invitation
 
+Post date: Thu., Dec. 17
+
 Graphic: `graphics/4-invitation.png`
 
 Alt text: *Graphic reading "“You should run for office.” They Might Be Right. Mayor, Council President or City Council. We want to hear from you. Fill out the form by Dec. 20: troynydems.com/run-for-office." Troy Democratic Committee logo.*
@@ -90,10 +111,45 @@ Alt text: *Graphic reading "“You should run for office.” They Might Be Right
 >
 > Maybe you've been thinking about it quietly. Maybe you know your block, Troy's small businesses, or its schools better than most. We want to hear from people who are ready to lead as Mayor, City Council President or a member of the City Council.
 >
-> Take five minutes and fill out the form by Sunday, Dec. 20. A committee member will follow up with you directly.
+> Three days left. Take five minutes and fill out the form by Sunday, Dec. 20. A committee member will follow up with you directly.
 >
 > 👉 Fill out the form: https://troynydems.com/run-for-office#candidate-form
 >
 > City of Troy Democratic Committee
 >
 > #TroyNY #RunForOffice #TroyDems #CapitalRegion
+
+---
+
+## Reddit
+
+Post date: Thu., Dec. 3
+
+**Where:** a Troy subreddit (check that r/TroyNY is the right one) and maybe r/Albany. Read each subreddit's rules first, and message the moderators if they ask for that. Post as text with the link in the body. No hashtags, emoji or graphic.
+
+**Who posts:** a committee member's account or a committee account. Say who is posting in the first line. Have someone ready to answer comments for the first day or two. Keep answers short and factual.
+
+**Title:** Troy Democrats are looking for candidates for Mayor, Council President and City Council. Interest form open until Dec. 20
+
+**Body:**
+
+> Hi r/TroyNY. I'm posting for the City of Troy Democratic Committee.
+>
+> We're looking for Troy residents who might want to run for Mayor, City Council President, or City Council. If you've ever thought about it, or someone has told you that you should, we'd like to hear from you.
+>
+> You don't need political experience. Filling out the form doesn't commit you to anything. A committee member will reach out, answer your questions, and walk you through what running actually involves, from gathering petition signatures to Election Day.
+>
+> A quick rundown of the offices:
+>
+> - **Mayor:** runs the city day to day.
+> - **City Council President:** leads the council that writes Troy's laws and votes on the city budget.
+> - **City Council Member:** represents one of Troy's six council districts and votes on every law and budget.
+>
+> The interest form is open until Sunday, Dec. 20:
+> https://troynydems.com/run-for-office#candidate-form
+>
+> Happy to answer questions in the comments about the process, timing, or what the committee does.
+
+**Reminder comment (Wed., Dec. 16, if allowed):**
+
+> Quick reminder: the interest form closes this Sunday, Dec. 20. https://troynydems.com/run-for-office#candidate-form
