@@ -1,0 +1,171 @@
+<title>Holiday Posts</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: a posting calendar. Header with a "next up" callout and month jump links, then one row per holiday grouped by month: graphic left, copy right; stacks on phones. */
+:root{
+  --bg:#f3f5f9; --surface:#ffffff; --ink:#14223a; --muted:#56627a; --line:#d6dce7;
+  --navy:#1a3a6b; --gold:#c8a400; --gold-ink:#1a3a6b; --ok:#1d7a46; --soft:#e7ecf4;
+  --display:"Montserrat",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1626; --surface:#16213a; --ink:#e8edf6; --muted:#a3afc4; --line:#2b3a58;
+  --navy:#9db8e6; --gold:#e0c33a; --gold-ink:#14223a; --ok:#5cc98b; --soft:#1d2a47; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1626; --surface:#16213a; --ink:#e8edf6; --muted:#a3afc4; --line:#2b3a58;
+  --navy:#9db8e6; --gold:#e0c33a; --gold-ink:#14223a; --ok:#5cc98b; --soft:#1d2a47; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1120px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:14px;border-top:6px solid var(--gold);padding-top:18px}
+.eyebrow{font-family:var(--display);font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(28px,5vw,40px);line-height:1.05;margin:0;color:var(--navy);text-wrap:balance}
+.lede{margin:0;max-width:65ch;color:var(--muted)}
+.next{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;background:var(--navy);color:var(--bg);border-radius:10px;padding:14px 18px}
+.next b{font-family:var(--display);font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.next a{color:inherit;font-weight:600}
+.jump{display:flex;flex-wrap:wrap;gap:8px}
+.jump a{font-size:13px;font-weight:600;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px}
+.jump a:hover{border-color:var(--navy)}
+.filter{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
+.month{display:flex;flex-direction:column;gap:16px}
+h2{font-family:var(--display);font-weight:800;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:8px 0 0;border-bottom:1px solid var(--line);padding-bottom:8px}
+.post{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:24px;scroll-margin-top:16px}
+.post.is-next{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold)}
+.post.is-past{opacity:.62}
+@media (max-width:760px){.post{grid-template-columns:minmax(0,1fr)}}
+.post img{width:100%;max-width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:6px;display:block;background:var(--soft)}
+.body{display:flex;flex-direction:column;gap:12px;min-width:0}
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px}
+h3{font-family:var(--display);font-weight:800;font-size:20px;margin:0;color:var(--ink);text-wrap:balance}
+.when{font-size:13.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.pill{font-size:12px;font-weight:700;border-radius:999px;padding:3px 10px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.pill.next{background:var(--gold);border-color:var(--gold);color:var(--gold-ink)}
+.pill.soon{border-color:var(--navy);color:var(--navy)}
+.pill.past{border-color:var(--ok);color:var(--ok)}
+.pill.sched{background:var(--ok);border-color:var(--ok);color:var(--surface)}
+.post.is-sched{border-left:5px solid var(--ok)}
+.copy{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:14px;margin:0;font:inherit;font-size:14.5px;line-height:1.55;overflow-wrap:anywhere}
+details{font-size:13.5px;color:var(--muted)}
+details p{margin:8px 0 0;overflow-wrap:anywhere}
+summary{cursor:pointer;font-weight:600}
+.btns{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button{font:inherit;font-weight:600;font-size:13.5px;border-radius:8px;padding:8px 14px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+button:hover{border-color:var(--navy)}
+button.primary{background:var(--gold);border-color:var(--gold);color:var(--gold-ink)}
+.done{font-size:13px;color:var(--ok);min-height:1.2em}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+footer{font-size:13px;color:var(--muted);max-width:65ch}
+footer code{font-size:12.5px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">City of Troy Democratic Committee · Facebook</div>
+    <h1>Holiday Posts, Nov. 2026 to Nov. 2027</h1>
+    <p class="lede" id="lede">Every holiday and civic date on the posting calendar, with its 1080×1080 graphic and ready-to-paste copy.</p>
+    <div class="next" id="next" hidden></div>
+    <nav class="jump" id="jump" aria-label="Jump to month"></nav>
+    <label class="filter"><input type="checkbox" id="hidePast"> Hide posts whose date has passed</label>
+  </header>
+  <main id="list" style="display:flex;flex-direction:column;gap:28px"></main>
+  <footer>Source: <code>holiday-posts/README.md</code> and <code>posts.json</code> in the website repo. To change a graphic, edit <code>posts.json</code> and run <code>python holiday-posts/render.py</code>.</footer>
+</div>
+
+<script>
+const POSTS = /*DATA*/[];
+const today = new Date(); today.setHours(0,0,0,0);
+const d = s => { const [y,m,dd] = s.split("-").map(Number); return new Date(y, m-1, dd); };
+const days = p => Math.round((d(p.date) - today) / 86400000);
+// Posts already scheduled on Facebook
+const SCHEDULED = new Set(["2026-11-26-thanksgiving", "2026-11-28-small-business-saturday"]);
+const nextPost = POSTS.find(p => days(p) >= 0 && !SCHEDULED.has(p.id));
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const monthKey = p => d(p.date).toLocaleDateString("en-US", {month:"long", year:"numeric"});
+
+const upcoming = POSTS.filter(p => days(p) >= 0 && !SCHEDULED.has(p.id)).length;
+const sched = POSTS.filter(p => days(p) >= 0 && SCHEDULED.has(p.id)).length;
+document.getElementById("lede").textContent =
+  `${POSTS.length} holidays and civic dates, each with its 1080×1080 graphic and ready-to-paste copy. ${sched} scheduled on Facebook, ${upcoming} still to schedule.`;
+
+if (nextPost) {
+  const n = days(nextPost);
+  const el = document.getElementById("next");
+  el.innerHTML = `<b>Next up</b><a href="#${nextPost.id}">${esc(nextPost.name)}</a><span>${esc(nextPost.when)} · ${n === 0 ? "today" : n === 1 ? "tomorrow" : "in " + n + " days"}</span>`;
+  el.hidden = false;
+}
+
+const groups = new Map();
+POSTS.forEach(p => { const k = monthKey(p); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); });
+
+const list = document.getElementById("list"), jump = document.getElementById("jump");
+let i = 0;
+for (const [month, items] of groups) {
+  const id = "m" + (i++);
+  const sec = document.createElement("section");
+  sec.className = "month"; sec.id = id; sec.dataset.past = items.every(p => days(p) < 0);
+  sec.innerHTML = `<h2>${esc(month)}</h2>`;
+  jump.insertAdjacentHTML("beforeend", `<a href="#${id}" data-month="${id}">${esc(month.replace(/ \d{4}$/, ""))} ${month.slice(-2) === "26" ? "’26" : "’27"}</a>`);
+  for (const p of items) {
+    const n = days(p);
+    const isNext = p === nextPost;
+    const isSched = SCHEDULED.has(p.id) && n >= 0;
+    const pill = isSched ? `<span class="pill sched">✓ Scheduled</span>`
+      : isNext ? `<span class="pill next">Next up</span>`
+      : n < 0 ? `<span class="pill past">Date passed</span>`
+      : n <= 30 ? `<span class="pill soon">In ${n} days</span>`
+      : `<span class="pill">Upcoming</span>`;
+    const art = document.createElement("article");
+    art.className = "post" + (isNext ? " is-next" : "") + (isSched ? " is-sched" : "") + (n < 0 ? " is-past" : "");
+    art.id = p.id; art.dataset.past = n < 0;
+    art.innerHTML = `
+      <img src="${p.file}" alt="${esc(p.alt)}" loading="lazy" width="1080" height="1080">
+      <div class="body">
+        <div class="top"><div><h3>${esc(p.name)}</h3><div class="when">${esc(p.when)}</div></div>${pill}</div>
+        <pre class="copy">${esc(p.copy)}</pre>
+        <details><summary>Alt text</summary><p>${esc(p.alt)}</p></details>
+        <div class="btns">
+          <button class="primary" data-act="copy">Copy post text</button>
+          <button data-act="alt">Copy alt text</button>
+          <span class="done" aria-live="polite"></span>
+        </div>
+      </div>`;
+    art.querySelector('[data-act="copy"]').onclick = e => copy(p.copy, e.target, "Post text copied");
+    art.querySelector('[data-act="alt"]').onclick = e => copy(p.alt, e.target, "Alt text copied");
+    sec.appendChild(art);
+  }
+  list.appendChild(sec);
+}
+
+function legacyCopy(text) {
+  const ta = document.createElement("textarea");
+  ta.value = text; ta.setAttribute("readonly", "");
+  ta.style.cssText = "position:fixed;top:0;left:0;opacity:0;pointer-events:none";
+  document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, text.length);
+  let ok = false; try { ok = document.execCommand("copy"); } catch (e) {}
+  ta.remove(); return ok;
+}
+function copy(text, btn, msg) {
+  const done = btn.parentElement.querySelector(".done");
+  const ok = () => { done.textContent = msg; setTimeout(() => { done.textContent = ""; }, 3000); };
+  if (legacyCopy(text)) return ok();
+  const p = navigator.clipboard && navigator.clipboard.writeText ? navigator.clipboard.writeText(text) : Promise.reject();
+  p.then(ok, () => {
+    const pre = btn.closest(".body").querySelector(msg.startsWith("Alt") ? "details p" : ".copy");
+    if (msg.startsWith("Alt")) btn.closest(".body").querySelector("details").open = true;
+    const r = document.createRange(); r.selectNodeContents(pre);
+    const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+    done.textContent = "Text selected. Press Ctrl+C to copy.";
+  });
+}
+
+const hide = document.getElementById("hidePast");
+function applyHide() {
+  document.querySelectorAll('[data-past="true"]').forEach(el => { el.hidden = hide.checked; });
+  document.querySelectorAll('[data-month]').forEach(a => {
+    a.hidden = hide.checked && document.getElementById(a.dataset.month).dataset.past === "true";
+  });
+}
+try { hide.checked = localStorage.getItem("hidePast") === "1"; } catch (e) {}
+hide.onchange = () => { try { localStorage.setItem("hidePast", hide.checked ? "1" : "0"); } catch (e) {} applyHide(); };
+applyHide();
+</script>

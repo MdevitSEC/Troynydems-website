@@ -13,6 +13,8 @@ python holiday-posts/render.py flag-day     # just one
 
 Each entry in `posts.json` takes these fields: `kicker` (the gold line at the top), `headline`, `sub`, `size` (headline px: use 140 for short headlines and 120 for long ones), `flag` (true adds the stripes and stars), and `icon` (an emoji drawn in the bottom-right corner as a nod to the holiday, e.g. 🦃 for Thanksgiving; it can also be inline SVG markup, as with the fireworks on Independence Day). Each post also sets its holiday's colors with `bg` (background), `ink` (main text), `accent` (kicker, stars, and URL), and `bar` (the top bar, which can be a CSS gradient such as the Pride rainbow). Leave them out to get committee navy and gold. Add `"striped": true` to turn a multi-color `bar` into full-bleed stripes behind a rounded panel in the `bg` color A `pattern` (any CSS background) replaces those stripes, as with the gift-wrap stripes on Happy Holidays. Striped posts: Happy Holidays, Black History Month, Women's History Month, Pride, Juneteenth, and Hispanic Heritage Month). Keep the accent bright enough to read on the background. Check every PNG after you render it.
 
+**When a post's date passes:** keep the old entry as a record, then add the same holiday for the next year at the end of the list. Write fresh copy (don't repeat last year's wording) and give the graphic a new look with a different headline, colors, and icon. Use the new year's date and weekday in the id, file name, and heading. Then render it and rebuild the Holiday Posts page.
+
 **Alt text pattern:** *Graphic reading "[kicker]. [headline]. [sub]." Troy Democratic Committee logo and troynydems.com.*
 
 ---
@@ -254,3 +256,19 @@ Graphic: `2027-11-02-election-day.png`
 > City of Troy Democratic Committee
 >
 > #ElectionDay #TroyNY
+
+### Veterans Day · Thu., Nov. 11
+Graphic: `2027-11-11-veterans-day.png`
+
+> Happy Veterans Day, Troy.
+>
+> Today we honor the men and women from our city and across the country who served in the armed forces. Thank you for your service, and thank you to the families who stood behind you.
+>
+> Many veterans keep serving long after they come home, coaching kids' teams and volunteering right here in Troy.
+>
+> Take a minute today to thank a veteran in your life. A phone call or a short note means more than you might think.
+>
+> With gratitude,
+> City of Troy Democratic Committee
+>
+> 🇺🇸 #VeteransDay #TroyNY
