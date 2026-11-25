@@ -18,14 +18,19 @@ Facebook posts inviting Troy residents to fill out the interest form at troynyde
 
 Starts the day after the council's Dec. 1 budget vote.
 
+**Instagram:** each Facebook post goes up on Instagram at the same time, with the same graphic. Instagram doesn't make links in captions clickable, so:
+- Before Dec. 2, put https://troynydems.com/run-for-office#candidate-form in the Instagram bio.
+- In the caption, replace the 👉 link line with: 👉 Fill out the form: link in our bio (troynydems.com/run-for-office)
+- Share each post to Stories with a link sticker pointing to the form.
+
 | Date | Where | Post |
 |---|---|---|
-| Wed., Dec. 2 | Facebook | Post 1: The ask |
+| Wed., Dec. 2 | Facebook + Instagram | Post 1: The ask |
 | Thu., Dec. 3 | Reddit | Reddit post |
-| Mon., Dec. 7 | Facebook | Post 3: What the jobs are |
-| Mon., Dec. 14 | Facebook | Post 2: Low pressure (one week left) |
+| Mon., Dec. 7 | Facebook + Instagram | Post 3: What the jobs are |
+| Mon., Dec. 14 | Facebook + Instagram | Post 2: Low pressure (one week left) |
 | Wed., Dec. 16 | Reddit | Reminder comment on the Reddit post, if the subreddit allows it |
-| Thu., Dec. 17 | Facebook | Post 4: The personal invitation |
+| Thu., Dec. 17 | Facebook + Instagram | Post 4: The personal invitation |
 
 ---
 
