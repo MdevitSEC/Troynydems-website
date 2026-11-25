@@ -4,7 +4,8 @@
   python run-for-office-posts/render.py invitation   # render posts whose id contains "invitation"
 
 Each post in posts.json: id, photo (a file in images/), pos (CSS object-position for the
-photo crop, default "center"), bw (true shows the photo in black and white), fit ("width" shows the whole width of
+photo crop, default "center"), bw (true shows the photo in black and white), photo_h (photo height in px,
+default 600; use a shorter one for wide group photos so nobody is cropped out), fit ("width" shows the whole width of
 a wide group photo over a blurred copy instead of cropping it), kicker,
 headline, sub, cta, size (headline px). Always look at the PNG afterward.
 """
@@ -45,6 +46,8 @@ def main():
                    .replace("__FILTER__", "grayscale(1) contrast(1.05)" if p.get("bw") else "none")
                    .replace("__FILTER2__", "grayscale(1)" if p.get("bw") else "")
                    .replace("__FIT__", "wide" if p.get("fit") == "width" else "")
+                   .replace("__PH__", str(p.get("photo_h", 600)))
+                   .replace("__DT__", str(p.get("photo_h", 600) - 130))
                    .replace("__KICKER__", html.escape(p["kicker"]))
                    .replace("__HEADLINE__", html.escape(p["headline"]))
                    .replace("__SUB__", html.escape(p["sub"]))

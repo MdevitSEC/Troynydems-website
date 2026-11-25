@@ -2,5 +2,5 @@
   {"id": "1-the-ask", "photo": "Phil_shikole_Jona_greg.jpg", "pos": "50% 30%", "kicker": "Mayor \u00b7 Council President \u00b7 Council", "headline": "Could It Be You?", "sub": "Troy Democrats are looking for our next candidates.", "cta": "Tell us you're interested", "size": 100},
   {"id": "2-low-pressure", "photo": "sue_noreen_greg_Mark.jpg", "pos": "50% 35%", "kicker": "Thinking about running?", "headline": "Start With a Conversation", "sub": "No commitment. Just a conversation.", "cta": "Fill out the interest form", "size": 84},
   {"id": "3-the-jobs", "photo": "hero-home.jpg", "pos": "40% 50%", "bw": true, "kicker": "Three ways to serve Troy", "headline": "Help Lead Troy", "sub": "Mayor, Council President and City Council.", "cta": "Raise your hand", "size": 100},
-  {"id": "4-invitation", "photo": "citycouncil2025-2027.jpg", "pos": "50% 25%", "kicker": "\u201cYou should run for office.\u201d", "headline": "They Might Be Right", "sub": "Mayor, Council President or City Council.", "cta": "Fill out the interest form", "size": 92, "fit": "width"}
+  {"id": "4-invitation", "photo": "citycouncil2025-2027.jpg", "pos": "50% 40%", "kicker": "\u201cYou should run for office.\u201d", "headline": "They Might Be Right", "sub": "Mayor, Council President or City Council. We want to hear from you.", "cta": "Fill out the interest form", "size": 118, "photo_h": 400}
 ]

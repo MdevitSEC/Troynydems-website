@@ -110,7 +110,7 @@ Post date: Thu., Dec. 17
 
 Graphic: `graphics/4-invitation.png`
 
-Alt text: *Photo of the Troy City Council members for the 2025-2027 term at their swearing-in. Text reads "“You should run for office.” They Might Be Right. Mayor, Council President or City Council. Fill out the interest form: troynydems.com/run-for-office." A gold circle reads "Due Dec. 20." Troy Democratic Committee logo.*
+Alt text: *Photo of the Troy City Council members for the 2025-2027 term at their swearing-in. Text reads "“You should run for office.” They Might Be Right. Mayor, Council President or City Council. We want to hear from you. Fill out the interest form: troynydems.com/run-for-office." A gold circle reads "Due Dec. 20." Troy Democratic Committee logo.*
 
 > Has someone ever told you, "You should run for office"? They might have been right.
 >
