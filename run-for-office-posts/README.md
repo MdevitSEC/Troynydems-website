@@ -25,9 +25,9 @@ Starts the day after the council's Dec. 1 budget vote.
 
 | Date | Where | Post |
 |---|---|---|
-| Wed., Dec. 2 | Facebook + Instagram | Post 1: The ask |
+| Wed., Dec. 2 | Facebook + Instagram | Post 3: What the jobs are |
 | Thu., Dec. 3 | Reddit | Reddit post |
-| Mon., Dec. 7 | Facebook + Instagram | Post 3: What the jobs are |
+| Mon., Dec. 7 | Facebook + Instagram | Post 1: The ask |
 | Mon., Dec. 14 | Facebook + Instagram | Post 2: Low pressure (one week left) |
 | Wed., Dec. 16 | Reddit | Reminder comment on the Reddit post, if the subreddit allows it |
 | Thu., Dec. 17 | Facebook + Instagram | Post 4: The personal invitation |
@@ -36,7 +36,7 @@ Starts the day after the council's Dec. 1 budget vote.
 
 ### Post 1: The ask
 
-Post date: Wed., Dec. 2
+Post date: Mon., Dec. 7
 
 Graphic: `graphics/1-the-ask.png`
 
@@ -82,7 +82,7 @@ Alt text: *Photo of a ribbon cutting outside Troy Bike Rescue with a crowd of ne
 
 ### Post 3: What the jobs are
 
-Post date: Mon., Dec. 7
+Post date: Wed., Dec. 2
 
 Graphic: `graphics/3-the-jobs.png`
 
