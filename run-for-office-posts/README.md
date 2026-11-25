@@ -25,7 +25,7 @@ Starts the day after the council's Dec. 1 budget vote.
 | Mon., Dec. 7 | Facebook | Post 3: What the jobs are |
 | Mon., Dec. 14 | Facebook | Post 2: Low pressure (one week left) |
 | Wed., Dec. 16 | Reddit | Reminder comment on the Reddit post, if the subreddit allows it |
-| Thu., Dec. 17 | Facebook | Post 4: The personal invitation (three days left) |
+| Thu., Dec. 17 | Facebook | Post 4: The personal invitation |
 
 ---
 
@@ -111,7 +111,7 @@ Alt text: *Photo of the Troy City Council members for the 2025-2027 term at thei
 >
 > Maybe you've been thinking about it quietly. Maybe you know your block, Troy's small businesses, or its schools better than most. We want to hear from people who are ready to lead as Mayor, City Council President or a member of the City Council.
 >
-> Three days left. Take five minutes and fill out the form by Sunday, Dec. 20. A committee member will follow up with you directly.
+> Take five minutes and fill out the form by Sunday, Dec. 20. A committee member will follow up with you directly.
 >
 > 👉 Fill out the form: https://troynydems.com/run-for-office#candidate-form
 >
