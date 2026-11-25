@@ -8,7 +8,7 @@ Facebook posts inviting Troy residents to fill out the interest form at troynyde
 
 **Style:** warm and encouraging. Hook in the first line. No em dashes. Short sentences. Follows VOICE_GUIDE.md: no sweeping openers, no inspirational wrap-ups, start and end on substance. Sign off as the City of Troy Democratic Committee.
 
-**Graphics:** edit `posts.json`, then run `python run-for-office-posts/render.py`. Check every PNG after rendering.
+**Graphics:** photo-led template. Each graphic uses a photo from the site's `images/` folder. Edit `posts.json`, then run `python run-for-office-posts/render.py`. Check every PNG after rendering.
 
 **Link:** posts link to https://troynydems.com/run-for-office#candidate-form, which jumps straight to the form.
 
@@ -35,7 +35,7 @@ Post date: Wed., Dec. 2
 
 Graphic: `graphics/1-the-ask.png`
 
-Alt text: *Graphic reading "Interest form due Dec. 20. Could It Be You? Troy Democrats are looking for candidates for Mayor, Council President and City Council. Tell us by Dec. 20: troynydems.com/run-for-office." Troy Democratic Committee logo.*
+Alt text: *Photo of Troy Democrats waving and carrying small American flags in a parade. Text reads "Mayor · Council President · Council. Could It Be You? Troy Democrats are looking for our next candidates. Tell us you're interested: troynydems.com/run-for-office." A gold circle reads "Due Dec. 20." Troy Democratic Committee logo.*
 
 > Troy Democrats are looking for our next candidates for Mayor, City Council President and City Council. Could it be you?
 >
@@ -55,7 +55,7 @@ Post date: Mon., Dec. 14
 
 Graphic: `graphics/2-low-pressure.png`
 
-Alt text: *Graphic reading "Thinking about running? Start With a Conversation. Mayor, Council President or City Council. No commitment. Fill out the form by Dec. 20: troynydems.com/run-for-office." Troy Democratic Committee logo.*
+Alt text: *Photo of a ribbon cutting outside Troy Bike Rescue with a crowd of neighbors. Text reads "Thinking about running? Start With a Conversation. No commitment. Just a conversation. Fill out the interest form: troynydems.com/run-for-office." A gold circle reads "Due Dec. 20." Troy Democratic Committee logo.*
 
 > Filling out a form doesn't put your name on a ballot. 🙂
 >
@@ -81,7 +81,7 @@ Post date: Mon., Dec. 7
 
 Graphic: `graphics/3-the-jobs.png`
 
-Alt text: *Graphic reading "Three ways to serve Troy. Help Lead Troy. Mayor, Council President and City Council shape how our city runs and spends. Raise your hand by Dec. 20: troynydems.com/run-for-office." Troy Democratic Committee logo.*
+Alt text: *Historic black-and-white photo of a large crowd in Monument Square in Troy. Text reads "Three ways to serve Troy. Help Lead Troy. Mayor, Council President and City Council. Raise your hand: troynydems.com/run-for-office." A gold circle reads "Due Dec. 20." Troy Democratic Committee logo.*
 
 > Who decides how Troy plows its streets, spends its tax dollars, and answers residents? These offices carry a lot of that weight.
 >
@@ -105,7 +105,7 @@ Post date: Thu., Dec. 17
 
 Graphic: `graphics/4-invitation.png`
 
-Alt text: *Graphic reading "“You should run for office.” They Might Be Right. Mayor, Council President or City Council. We want to hear from you. Fill out the form by Dec. 20: troynydems.com/run-for-office." Troy Democratic Committee logo.*
+Alt text: *Photo of the Troy City Council members for the 2025-2027 term at their swearing-in. Text reads "“You should run for office.” They Might Be Right. Mayor, Council President or City Council. Fill out the interest form: troynydems.com/run-for-office." A gold circle reads "Due Dec. 20." Troy Democratic Committee logo.*
 
 > Has someone ever told you, "You should run for office"? They might have been right.
 >

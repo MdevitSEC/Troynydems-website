@@ -1,22 +1,30 @@
 <!DOCTYPE html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800;900&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=block" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1080px;overflow:hidden}
 body{background:#1a3a6b;font-family:Montserrat,sans-serif;color:#fff;position:relative}
-.bar{position:absolute;left:0;top:0;width:100%;height:24px;background:#C8A400}
-.wrap{position:absolute;left:96px;right:96px;top:96px;bottom:80px;display:flex;flex-direction:column}
-.kicker{font-weight:800;font-size:40px;letter-spacing:.08em;text-transform:uppercase;color:#C8A400}
-h1{font-weight:900;font-size:__HS__px;line-height:1.02;margin-top:40px;letter-spacing:-.01em}
-.sub{font-weight:600;font-size:46px;line-height:1.22;margin-top:36px}
-.cta{margin-top:auto;background:#C8A400;color:#1a3a6b;border-radius:18px;padding:26px 34px}
-.cta1{font-weight:900;font-size:44px;line-height:1.1}
-.cta2{font-weight:800;font-size:34px;margin-top:10px}
-.foot{margin-top:36px;display:flex;align-items:center;gap:28px}
-.foot img{width:130px;height:130px;object-fit:contain}
-.by2{font-weight:800;font-size:40px;line-height:1.1}
-</style></head><body><div class="bar"></div><div class="wrap">
+.photo{position:absolute;left:0;top:0;width:1080px;height:600px;overflow:hidden;background:#1a3a6b}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:__POS__;display:block;filter:__FILTER__}
+.photo img.bg{filter:blur(28px) brightness(.55) __FILTER2__;transform:scale(1.15)}
+.photo.wide img.fg{top:auto;bottom:0;height:auto;object-fit:contain;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 18%);mask-image:linear-gradient(180deg,transparent 0,#000 18%)}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,58,107,0) 55%,rgba(26,58,107,.85) 100%)}
+.date{position:absolute;top:470px;right:64px;width:160px;height:160px;border-radius:50%;background:#C8A400;color:#1a3a6b;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg);box-shadow:0 8px 24px rgba(0,0,0,.3);z-index:2}
+.date .t{font-weight:800;font-size:18px;letter-spacing:.14em;text-transform:uppercase}
+.date .m{font-weight:900;font-size:30px;line-height:1;margin-top:2px}
+.date .d{font-weight:900;font-size:58px;line-height:.95}
+.panel{position:absolute;left:0;right:0;top:600px;bottom:0;padding:0 72px 52px;display:flex;flex-direction:column}
+.kicker{align-self:flex-start;margin-top:-30px;background:#C8A400;color:#1a3a6b;font-weight:800;font-size:26px;letter-spacing:.08em;text-transform:uppercase;padding:14px 22px;border-radius:6px;position:relative;z-index:2}
+h1{font-weight:900;font-size:__HS__px;line-height:1.0;margin-top:28px;letter-spacing:-.01em}
+.sub{font-weight:600;font-size:32px;line-height:1.25;margin-top:16px;color:#dfe7f5}
+.foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.cta{font-weight:800;font-size:34px;line-height:1.15}
+.cta span{display:block;color:#C8A400;font-weight:700;font-size:28px;margin-top:6px}
+.foot img{width:112px;height:112px;object-fit:contain;flex:none}
+</style></head><body>
+<div class="photo __FIT__"><img class="bg" src="__PHOTO__" alt=""><img class="fg" src="__PHOTO__" alt=""></div>
+<div class="date"><div class="t">Due</div><div class="m">Dec.</div><div class="d">20</div></div>
+<div class="panel">
 <div class="kicker">__KICKER__</div><h1>__HEADLINE__</h1><div class="sub">__SUB__</div>
-<div class="cta"><div class="cta1">__CTA__</div><div class="cta2">troynydems.com/run-for-office</div></div>
-<div class="foot"><img src="logo.png" alt=""><div class="by2">Troy Democratic Committee</div></div>
+<div class="foot"><div class="cta">__CTA__<span>troynydems.com/run-for-office</span></div><img src="logo.png" alt=""></div>
 </div></body></html>
